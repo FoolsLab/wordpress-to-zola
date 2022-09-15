@@ -1,0 +1,11 @@
+[package]
+name = "wp-export"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = { version = "0.4.19", features = ["serde"] }
+serde = { version = "1.0.137", features = ["derive"] }
+serde-xml-rs = "0.5.1"
